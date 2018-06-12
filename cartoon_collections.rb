@@ -13,8 +13,8 @@ def summon_captain_planet(planeteer_calls = ["earth", "wind", "fire", "water", "
   return summoned_planeteers
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(planeteer_calls = ["earth", "wind", "fire", "water", "heart"])
+  planeteer_calls.search
 end
 
 def find_the_cheese# code an argument here
