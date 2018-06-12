@@ -15,7 +15,10 @@ end
 
 def long_planeteer_calls(planeteer_calls = ["earth", "wind", "fire", "water", "heart"])
   planeteer_calls.select do |planeteer|
-    if planeteer.length
+    if planeteer.length? > 4
+      return true 
+    end
+  end
 end
 
 def find_the_cheese# code an argument here
