@@ -25,7 +25,7 @@ end
 
 def find_the_cheese(soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"])
   soup.detect
-  
+    if soup.is_a?(String)
   else 
     return nil
 end
