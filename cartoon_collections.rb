@@ -24,8 +24,8 @@ def long_planeteer_calls(planeteer_calls = ["earth", "wind", "fire", "water", "h
 end
 
 def find_the_cheese(cheddar_cheese = ["banana", "cheddar", "sock"])
-  soup.detect do |soup|
-    if soup.include?("cheddar")
+  cheddar_cheese.detect do |cheese|
+    if cheese.include?("cheddar")
       return true
     else 
       return nil
