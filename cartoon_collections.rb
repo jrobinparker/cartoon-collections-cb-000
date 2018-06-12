@@ -23,7 +23,6 @@ def long_planeteer_calls(planeteer_calls = ["earth", "wind", "fire", "water", "h
   end
 end
 
-def find_the_cheese(snacks = ["crackers", "gouda", "thyme"])
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese(cheese_types = ["cheddar", "gouda", "camembert"])
+  cheese_types.
 end
