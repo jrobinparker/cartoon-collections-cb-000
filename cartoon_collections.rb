@@ -17,7 +17,8 @@ def long_planeteer_calls(planeteer_calls = ["earth", "wind", "fire", "water", "h
   planeteer_calls.select do |planeteer|
     if planeteer.length? > 4
       return true 
-    end
+    else 
+      return false
   end
 end
 
