@@ -5,7 +5,13 @@ def roll_call_dwarves(dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"])
 end
 
 def summon_captain_planet(planeteer_calls = ["earth", "wind", "fire", "water", "heart"])
-  # Your code here
+  summoned_planeteers = [] 
+  planeteer_calls.collect do |planeteer|
+    call_array = []
+    planeteer = planeteer.upcase + "!"
+    call_array << planeteer
+  end 
+  return summoned_planeteers
 end
 
 def long_planeteer_calls# code an argument here
