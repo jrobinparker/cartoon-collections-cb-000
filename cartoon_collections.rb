@@ -7,9 +7,8 @@ end
 def summon_captain_planet(planeteer_calls = ["earth", "wind", "fire", "water", "heart"])
   summoned_planeteers = [] 
   planeteer_calls.collect do |planeteer|
-    call_array = []
     planeteer = planeteer.upcase + "!"
-    call_array << planeteer
+    summoned_planeteers << planeteer
   end 
   return summoned_planeteers
 end
