@@ -14,7 +14,8 @@ def summon_captain_planet(planeteer_calls = ["earth", "wind", "fire", "water", "
 end
 
 def long_planeteer_calls(planeteer_calls = ["earth", "wind", "fire", "water", "heart"])
-  planeteer_calls.search
+  planeteer_calls.select do |planeteer|
+    
 end
 
 def find_the_cheese# code an argument here
