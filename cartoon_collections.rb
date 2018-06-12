@@ -19,6 +19,7 @@ def long_planeteer_calls(planeteer_calls = ["earth", "wind", "fire", "water", "h
       return true 
     else 
       return false
+    end
   end
 end
 
