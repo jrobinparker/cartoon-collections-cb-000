@@ -28,7 +28,7 @@ def find_the_cheese(soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"
     if soup = "cheddar"
       return "cheddar"
     else 
-      return "nil"
+      return nil
     end
   end
 end
