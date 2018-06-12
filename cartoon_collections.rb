@@ -25,8 +25,8 @@ end
 
 def find_the_cheese(soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"])
   soup.detect do |soup|
-    if soup.include?("cheddar")
-      return true"
+    if soup.include?(cheddar)
+      return true
     else 
       return nil
     end
